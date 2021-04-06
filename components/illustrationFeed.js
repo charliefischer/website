@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function illustrationFeed() {
   return(
-    <div className={styles.feed}>
+    <div className={styles.feedIllustration}>
       <h1>
         Illustrator
       </h1>
