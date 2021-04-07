@@ -1,9 +1,12 @@
+import Link from 'next/link'
 import styles from './navbar.module.css'
 
 export default function navbar() {
   return (
     <div className={styles.nav}>
-      <a className={styles.name}>Charlie Fischer</a>
+      <Link href='/'>
+        <a className={styles.name}>Charlie Fischer</a>
+      </Link>
     </div>
   )
 }

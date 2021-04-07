@@ -19,4 +19,11 @@ a.name{
   font-size: 54px;
   font-weight: 900;
   padding: 32px 0 32px 0;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.name:hover{
+  color:#555555
 }
