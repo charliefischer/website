@@ -28,9 +28,6 @@ export default class RiotChicken extends React.Component {
               objectFit='cover'
             />
           </div>
-
-          <footer>
-          </footer>
       </div>
     )
   }

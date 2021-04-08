@@ -7,6 +7,9 @@ export default function navbar() {
       <Link href='/'>
         <a className={styles.name}>Charlie Fischer</a>
       </Link>
+      <Link href='/about'>
+      <a className={styles.about}>About Me</a>
+      </Link>
     </div>
   )
 }
