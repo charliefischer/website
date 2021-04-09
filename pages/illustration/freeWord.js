@@ -151,9 +151,6 @@ export default class FreeWord extends React.Component {
               objectFit='cover'
             />
           </div>
-
-          <footer>
-          </footer>
       </div>
     )
   }
