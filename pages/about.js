@@ -22,15 +22,17 @@ export default function about() {
           <p>
             I'm now looking to take my skills into my first frontend developer role.
           </p>
-          <div className={styles.link}>
-            <Link href='https://github.com/charliefischer'>
-              <a>Checkout my Github</a>
-            </Link>
-          </div>
-          <div className={styles.link}>
-            <Link href='mailto: charlie.a.fischer@gmail.com'>
-              <a>Email</a>
-            </Link>
+          <div className={styles.links}>
+            <div className={styles.link}>
+              <Link href='https://github.com/charliefischer'>
+                <a>Github</a>
+              </Link>
+            </div>
+            <div className={styles.link}>
+              <Link href='mailto: charlie.a.fischer@gmail.com'>
+                <a>Email</a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

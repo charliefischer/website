@@ -24,13 +24,8 @@ render(){
           <title>Charlie Fischer</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
-          <Navbar />
           <IllustrationFeed />
           <WebDevFeed />
-
-        <footer>
-        </footer>
     </Layout>
   )
 }

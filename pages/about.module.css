@@ -17,6 +17,15 @@
   font-weight: 300;
   font-size: 18px;
 }
+.links {
+  display: flex;
+  flex-direction: row;
+  width: 65%;
+  padding-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
 
 .link{
   padding-top: 6px;
