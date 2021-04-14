@@ -2,6 +2,7 @@ import styles from './about.module.css'
 import Link from 'next/link'
 import Navbar from '../components/navbar'
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function about() {
   return(
@@ -34,6 +35,16 @@ export default function about() {
               </Link>
             </div>
           </div>
+        </div>
+        <div className={styles.image}>
+          <Image 
+            src='/about/brain.jpg'
+            width={400}
+            height={300}
+            layout='responsive'
+            objectFit='cover'
+            objectPosition='50% 0%'
+          />
         </div>
       </div>
     </div>

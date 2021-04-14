@@ -1,4 +1,4 @@
-import styles from './webdevFeed.module.css'
+import styles from './webdevFeed.module.scss'
 import Image from 'next/image'
 
 
