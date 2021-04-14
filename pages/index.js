@@ -9,24 +9,49 @@ import WebDevFeed from '../components/webdevFeed'
 
 
 export default class Home extends React.Component {
+
+  constructor(props){
+    super(props)
+    this.state = {
+      loading: true
+    }
+  }
+
+  // componentDidMount() {
+  //   $(window).scroll(function(){
+  //     console.log($(this))
+  //     $('#right').css('transform', 'translate3d(0,' + $(this).scrollTop()*2 + 'px, 0)'); 
+  //   }).scroll();
+  // }
   componentDidMount() {
-    $(window).scroll(function(){
-      console.log($(this))
-      $('#right').css('transform', 'translate3d(0,' + $(this).scrollTop()*2 + 'px, 0)'); 
-    }).scroll();
+    this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2500); 
   }
 
   
 render(){
-  return (
-    <Layout>
+  if (this.state.loading){
+    return (
+      <Layout>
         <Head>
           <title>Charlie Fischer</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-          <IllustrationFeed />
-          <WebDevFeed />
-    </Layout>
-  )
+        <div style={{marginTop: '50%'}}>
+          Loading...
+        </div>
+      </Layout>
+    )
+  } else {
+    return (
+      <Layout>
+          <Head>
+            <title>Charlie Fischer</title>
+            <link rel="icon" href="/favicon.ico" />
+          </Head>
+            <IllustrationFeed />
+            <WebDevFeed />
+      </Layout>
+    )
+  }
 }
 }

@@ -39,3 +39,13 @@ a.about{
   color: #000;
   transition: color 0.3s ease;
 }
+
+@media(max-width: 1000px){
+  a.name {
+    font-size: 36px;
+  }
+
+  a.about {
+    font-size: 18px
+  }
+}

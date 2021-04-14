@@ -1,6 +1,7 @@
 import styles from './illustrationFeed.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
+import ProgressiveImage from 'react'
 
 export default function illustrationFeed() {
   return(
