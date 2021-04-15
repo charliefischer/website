@@ -1,5 +1,5 @@
+import React from 'react'
 import styles from './illustrationFeed.module.scss'
-import Image from 'next/image'
 import Link from 'next/link'
 
 
@@ -10,29 +10,10 @@ render(){
       <div className={styles.feed}>
         <h1>Illustrator</h1>
         <div className={styles.feedIllustration}>
-        {/* <div className={styles.post}>
-            <Link href='/illustration/labourPartyGraphicDesigners'>
-              <a>
-                <ProgressiveImage 
-                  className={styles.img} 
-                  src={'/illustration/lpgd.png'}
-                  overlaySrc={'/illustration/miles_runs.png'}  
-                />
-              </a>
-            </Link>
-          </div> */}
-
           <div className={styles.post}> 
             <Link href='illustration/freeWord'>
               <a>
-                <Image 
-                  src='/illustration/freeword.jpg'
-                  alt='FreeWord'
-                  width={300}
-                  height={400}
-                  objectFit='cover'
-                  objectPosition='50% 0%'
-                />
+                <img src='/illustration/freeword.jpg' alt='FreeWord' />
               </a>
             </Link>
           </div>
@@ -40,14 +21,7 @@ render(){
           <div className={styles.post}> 
             <Link href='illustration/milesDavis'>
               <a>
-                <Image 
-                  src='/illustration/miles_runs.jpg'
-                  alt='FreeWord'
-                  width={300}
-                  height={400}
-                  objectFit='cover'
-                  objectPosition='50% 0%'
-                />
+                <img src='/illustration/miles_runs.jpg' alt='Miles Runs the Voodoo Down' />
               </a>
             </Link>
           </div>
@@ -55,15 +29,7 @@ render(){
           <div className={styles.post}>
             <Link href='illustration/riotChicken'>
               <a>
-                <Image 
-                  src='/illustration/riot_wrap.jpg'
-                  alt='Riot Chicken'
-                  width={300}
-                  height={300}
-                  loading='lazy'
-                  objectFit='cover'
-                  objectPosition='50% 0%'
-                />
+                <img src='/illustration/riot_wrap.jpg' alt='Riot Chicken' />
               </a>
             </Link>
           </div>
@@ -71,15 +37,7 @@ render(){
           <div className={styles.post}>
           <Link href='illustration/labourPartyGraphicDesigners'>
               <a>
-            <Image 
-              src='/illustration/columbus_crew.jpg'
-              alt='NPLH Columbus Crew'
-              width={280}
-              height={300}
-              loading='lazy'
-              objectFit='cover'
-              objectPosition='50% 0%'
-            />
+                <img src='/illustration/columbus_crew.jpg' alt='NPLH Columbus Crew' />
             </a>
           </Link>
           </div>
@@ -87,16 +45,7 @@ render(){
           <div className={styles.post}>
           <Link href='illustration/labourPartyGraphicDesigners'>
               <a>
-            <Image 
-              src='/illustration/in_looking_out.jpg'
-              alt='In Looking Out'
-              width={600}
-              height={800}
-              loading='lazy'
-              layout='responsive'
-              objectFit='cover'
-              objectPosition='50% 0%'
-            />
+                <img src='/illustration/in_looking_out.jpg' alt='In Looking Out' loading='lazy' />
             </a>
           </Link>
           </div>

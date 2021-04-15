@@ -1,4 +1,3 @@
-import React from "react";
 import Head from 'next/head'
 import $ from 'jquery'; 
 
@@ -6,6 +5,7 @@ import IllustrationFeed from '../components/illustrationFeed'
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import WebDevFeed from '../components/webdevFeed'
+import React from 'react'
 
 
 export default class Home extends React.Component {

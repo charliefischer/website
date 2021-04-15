@@ -1,8 +1,9 @@
 $randomNumber: random(5);
 
 .feed{
-  flex: 1;
+  width: 50vw;
   margin-top: 8%;
+  padding-right: 8vw;
 }
 
 .webfeed {
@@ -18,11 +19,11 @@ $randomNumber: random(5);
   font-size: 40px;
 }
 
-.webfeed h2,
-.webfeed p{
-  padding-left: 8px;
-  padding-right: 8px;
-}
+// .webfeed h2,
+// .webfeed p{
+//   padding-left: 8px;
+//   padding-right: 8px;
+// }
 
 .webfeed h2 {
   text-align: left;
@@ -39,11 +40,16 @@ $randomNumber: random(5);
 }
 
 .post {
-  margin: 0px 120px 42px 120px;
+  // margin: 0px 120px 42px 120px;
   // transform: rotate(-180deg);
   transition: all 0.3s ease;
 }
 
+.post img {
+  width: 400px;
+}
+
 .post:hover {
+  opacity: 0.85;
   transform: rotate($randomNumber - 5 + deg);
 }
