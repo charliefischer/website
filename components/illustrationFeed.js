@@ -37,13 +37,21 @@ render(){
           <div className={styles.post}>
           <Link href='illustration/labourPartyGraphicDesigners'>
               <a>
+                <img src='/illustration/lpgd.jpg' alt='Labour Party Graphic Designers' loading='lazy' />
+            </a>
+          </Link>
+          </div>
+
+          <div className={styles.post}>
+          <Link href='illustration/columbusCrew'>
+              <a>
                 <img src='/illustration/columbus_crew.jpg' alt='NPLH Columbus Crew' />
             </a>
           </Link>
           </div>
 
           <div className={styles.post}>
-          <Link href='illustration/labourPartyGraphicDesigners'>
+          <Link href='illustration/inLookingOut'>
               <a>
                 <img src='/illustration/in_looking_out.jpg' alt='In Looking Out' loading='lazy' />
             </a>
