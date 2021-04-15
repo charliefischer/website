@@ -1,7 +1,7 @@
 import styles from './illustrationFeed.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
-import ProgressiveImage from 'react'
+// import ProgressiveImage from 'react'
 
 export default function illustrationFeed() {
   return(
@@ -20,6 +20,9 @@ export default function illustrationFeed() {
                 objectFit='cover'
                 objectPosition='50% 0%'
               />
+              {/* <ProgressiveImage src='/illustration/learn_to_touch.png'>
+                {src => <img src={'/illustration/learn_to_touch.png'} alt='FreeWord' />}
+              </ProgressiveImage> */}
             </a>
           </Link>
         </div>
