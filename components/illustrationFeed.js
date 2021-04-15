@@ -1,8 +1,6 @@
 import styles from './illustrationFeed.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
-import ProgressiveImage from './progressiveImage'
-import React from 'react'
 
 
 export default class IllustrationFeed extends React.Component { 

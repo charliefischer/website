@@ -16,6 +16,7 @@ export default function webdevFeed() {
                 alt='Facebook Clone'
                 width={300}
                 height={200}
+                loading='eager'
                 objectFit='cover'
                 objectPosition='50% 0%'
                 />
