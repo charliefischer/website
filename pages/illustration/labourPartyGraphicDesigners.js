@@ -12,13 +12,11 @@ export default function milesDavis(){
         </Head>
         <div className={styles.text}>
           <h1 className={styles.title}>
-            Miles Runs the Voodoo Down
+            Labour Party Graphic Designers
           </h1>
 
           <p>
-            My entry to secret 7" - design a vinyl sleeve to illustrate the song Miles Runs the Voodoo Down by Miles Davis.
-            I wanted to capture the movement and busyness of the song whilst capturing the feeling of how busy the stage must've 
-            been with Miles' band featuring so many people. 
+            For the LPGD artpacks looking at the theme of how low skilled workers became heroes during the pandemic.
           </p>
         </div>
         <div className={styles.body}>
