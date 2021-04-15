@@ -45,7 +45,7 @@ render(){
           <div className={styles.post}>
           <Link href='illustration/columbusCrew'>
               <a>
-                <img src='/illustration/columbus_crew.jpg' alt='NPLH Columbus Crew' />
+                <img src='/illustration/columbus_crew.jpg' alt='NPLH Columbus Crew' loading='lazy'/>
             </a>
           </Link>
           </div>
