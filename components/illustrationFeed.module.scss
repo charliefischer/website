@@ -30,6 +30,9 @@ $randomNumber: random(5);
 
 .post:hover {
   transform: rotate($randomNumber - 5 + deg);
+}
+
+.post img:hover {
   opacity: 0.85;
 }
 
