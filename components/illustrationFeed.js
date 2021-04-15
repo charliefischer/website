@@ -4,11 +4,9 @@ import Link from 'next/link'
 import ProgressiveImage from './progressiveImage'
 import React from 'react'
 
-export default class IllustrationFeed extends React.Component {
-  
-  componentDidMount(){
-    console.log('loaded')
-  }
+
+export default class IllustrationFeed extends React.Component { 
+
 render(){
     return(
       <div className={styles.feed}>
@@ -34,6 +32,7 @@ render(){
                   alt='FreeWord'
                   width={300}
                   height={400}
+                  loading='lazy'
                   objectFit='cover'
                   objectPosition='50% 0%'
                 />
@@ -49,6 +48,7 @@ render(){
                   alt='FreeWord'
                   width={300}
                   height={400}
+                  loading='lazy'
                   objectFit='cover'
                   objectPosition='50% 0%'
                 />
@@ -64,6 +64,7 @@ render(){
                   alt='Riot Chicken'
                   width={300}
                   height={300}
+                  loading='lazy'
                   objectFit='cover'
                   objectPosition='50% 0%'
                 />
@@ -71,7 +72,7 @@ render(){
             </Link>
           </div>
 
-          <div className={styles.postLarge}>
+          <div className={styles.post}>
           <Link href='illustration/labourPartyGraphicDesigners'>
               <a>
             <Image 
@@ -79,6 +80,7 @@ render(){
               alt='NPLH Columbus Crew'
               width={280}
               height={300}
+              loading='lazy'
               objectFit='cover'
               objectPosition='50% 0%'
             />
@@ -86,7 +88,7 @@ render(){
           </Link>
           </div>
 
-          <div className={styles.postLarge}>
+          <div className={styles.post}>
           <Link href='illustration/labourPartyGraphicDesigners'>
               <a>
             <Image 
@@ -94,6 +96,7 @@ render(){
               alt='In Looking Out'
               width={600}
               height={800}
+              loading='lazy'
               layout='responsive'
               objectFit='cover'
               objectPosition='50% 0%'

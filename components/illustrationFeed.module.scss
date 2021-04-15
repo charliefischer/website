@@ -18,17 +18,21 @@ $randomNumber: random(5);
 }
 
 .post {
-  margin: 42px 120px 0 120px;
-  padding: 24px;
+  width: 50%;
+  // height: 800px;
+  // margin: 42px 120px 0 120px;
+  // padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
   transition: all 0.3s ease;
 }
 
 .post img{
-  width: 65%;
+  // width: 65%;
   transition: all 0.3s ease;
 }
 
-.post img:hover {
+.post:hover {
   transform: rotate($randomNumber - 5 + deg);
 }
 

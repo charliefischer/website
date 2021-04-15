@@ -16,7 +16,6 @@ export default function webdevFeed() {
                 alt='Type Checker'
                 width={300}
                 height={200}
-                layout='responsive'
                 objectFit='cover'
                 objectPosition='50% 0%'
                 />
@@ -32,7 +31,6 @@ export default function webdevFeed() {
                 alt='Words of Women'
                 width={300}
                 height={200}
-                layout='responsive'
                 objectFit='cover'
                 objectPosition='50% 0%'
                 />
@@ -48,7 +46,6 @@ export default function webdevFeed() {
                 alt='In Looking Out'
                 width={300}
                 height={200}
-                layout='responsive'
                 objectFit='cover'
                 objectPosition='50% 0%'
                 />
@@ -64,7 +61,6 @@ export default function webdevFeed() {
                 alt='Air BnB Clone'
                 width={300}
                 height={200}
-                layout='responsive'
                 objectFit='cover'
                 objectPosition='50% 0%'
                 />
@@ -80,7 +76,6 @@ export default function webdevFeed() {
                 alt='Facebook Clone'
                 width={300}
                 height={200}
-                layout='responsive'
                 objectFit='cover'
                 objectPosition='50% 0%'
                 />
