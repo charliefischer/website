@@ -19,9 +19,26 @@ $randomNumber: random(5);
 
 .post {
   margin: 42px 120px 0 120px;
+  padding: 24px;
   transition: all 0.3s ease;
 }
 
-.post:hover {
+.post img{
+  width: 65%;
+  transition: all 0.3s ease;
+}
+
+.post img:hover {
   transform: rotate($randomNumber - 5 + deg);
 }
+
+.postLarge {
+  margin: 24px 120px 24px 120px;
+  padding: 0 64px;
+  transition: all 0.3s ease;
+}
+
+.postLarge:hover {
+  transform: rotate($randomNumber - 5 + deg);
+}
+

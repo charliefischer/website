@@ -13,7 +13,7 @@ export default class Home extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      loading: true
+      loading: false
     }
   }
 
@@ -23,9 +23,9 @@ export default class Home extends React.Component {
   //     $('#right').css('transform', 'translate3d(0,' + $(this).scrollTop()*2 + 'px, 0)'); 
   //   }).scroll();
   // }
-  componentDidMount() {
-    this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2500); 
-  }
+  // componentDidMount() {
+  //   this.timerHandle = setTimeout(() => this.setState({ loading: false }), 2500); 
+  // }
 
   
 render(){
