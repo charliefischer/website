@@ -8,58 +8,47 @@ export default function illustrationFeed() {
     <div className={styles.feed}>
       <h1>Illustrator</h1>
       <div className={styles.feedIllustration}>
-        <div className={styles.post}>
-          <ProgressiveImage className={styles.img} src={'/illustration/learn_to_touch.png'}/>
-        </div>
-        {/* <div className={styles.post}>
-          <Link href='/illustration/freeWord'>
+      <div className={styles.post}>
+        <img data-src='/illustration/lpgd.png' /> 
+      </div>
+      <div className={styles.post}>
+          <Link href='/illustration/labourPartyGraphicDesigners'>
             <a>
-              <Image 
-                src='/illustration/learn_to_touch.png'
-                alt='FreeWord'
-                width={300}
-                height={300}
-                layout='responsive'
-                objectFit='cover'
-                objectPosition='50% 0%'
+              <ProgressiveImage 
+                className={styles.img} 
+                src={'/illustration/lpgd.png'}
+                overlaySrc={'/illustration/miles_runs.png'}  
               />
-              {/* <ProgressiveImage src='/illustration/learn_to_touch.png'>
-                {src => <img src={'/illustration/learn_to_touch.png'} alt='FreeWord' />}
-              </ProgressiveImage> */}
-            {/* </a>
+            </a>
           </Link>
-        </div> */} 
+        </div>
 
         <div className={styles.post}>
-          <Link href='/illustration/milesDavis'>
+          <Link href='/illustration/freeWord'>
             <a>
-              <Image 
-                src='/illustration/miles_runs.png'
-                alt='Miles Runs the Voodoo down'
-                width={300}
-                height={300}
-                layout='responsive'
-                objectFit='cover'
-                objectPosition='50% 0%'
-              />
+              <ProgressiveImage className={styles.img} src={'/illustration/learn_to_touch.png'}/>
             </a>
           </Link>
         </div>
         
         <div className={styles.post}>
-        <Link href='illustration/labourPartyGraphicDesigners'>
+          <Link href='/illustration/milesDavis'>
             <a>
-          <Image 
-            src='/illustration/lpgd.png'
-            alt='Labour Party Graphic Design'
-            width={300}
-            height={300}
-            layout='responsive'
-            objectFit='cover'
-            objectPosition='50% 0%'
-          />
-          </a>
-        </Link>
+              <ProgressiveImage className={styles.img} src={'/illustration/miles_runs.png'}/>
+            </a>
+          </Link>
+        </div>
+       
+        <div className={styles.post}>
+          <Link href='/illustration/labourPartyGraphicDesigners'>
+            <a>
+              <ProgressiveImage 
+                className={styles.img} 
+                src={'/illustration/lpgd.png'}
+                overlaySrc={'/illustration/miles_runs.png'}  
+              />
+            </a>
+          </Link>
         </div>
 
         <div className={styles.post}>
@@ -70,7 +59,6 @@ export default function illustrationFeed() {
                 alt='Riot Chicken'
                 width={300}
                 height={300}
-                layout='responsive'
                 objectFit='cover'
                 objectPosition='50% 0%'
               />
@@ -86,7 +74,6 @@ export default function illustrationFeed() {
             alt='NPLH Columbus Crew'
             width={280}
             height={300}
-            layout='responsive'
             objectFit='cover'
             objectPosition='50% 0%'
           />
