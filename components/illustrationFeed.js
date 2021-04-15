@@ -7,6 +7,7 @@ export default function illustrationFeed() {
   return(
     <div className={styles.feed}>
       <h1>Illustrator</h1>
+      <p> updated </p>
       <div className={styles.feedIllustration}>
       <div className={styles.post}>
         <img data-src='/illustration/lpgd.png' /> 
