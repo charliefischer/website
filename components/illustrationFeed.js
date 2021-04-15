@@ -32,7 +32,6 @@ render(){
                   alt='FreeWord'
                   width={300}
                   height={400}
-                  loading='lazy'
                   objectFit='cover'
                   objectPosition='50% 0%'
                 />
@@ -48,7 +47,6 @@ render(){
                   alt='FreeWord'
                   width={300}
                   height={400}
-                  loading='lazy'
                   objectFit='cover'
                   objectPosition='50% 0%'
                 />

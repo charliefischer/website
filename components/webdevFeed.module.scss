@@ -1,4 +1,4 @@
-$randomNumber: random(10);
+$randomNumber: random(5);
 
 .feed{
   flex: 1;
@@ -48,5 +48,5 @@ $randomNumber: random(10);
 }
 
 .post:hover {
-  transform: rotate($randomNumber - 10 + deg);
+  transform: rotate($randomNumber - 5 + deg);
 }
