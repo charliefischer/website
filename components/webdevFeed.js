@@ -8,7 +8,7 @@ export default function webdevFeed() {
       <h1>Web Developer</h1>
       {/* id=right for reverse scrolling */}
       <div className={styles.webfeed}>
-        <div className={styles.rotate}>
+        <div className={styles.row}>
             <div className={styles.post}>
               <h2 >BBB</h2>
               <a href='https://github.com/charliefischer/acebook-BBB' target="_blank">
@@ -28,7 +28,9 @@ export default function webdevFeed() {
                 <p >An AirBnB clone built in an MVC framework with Ruby and tested in Rspec</p>
               </div>
             </div>
+        </div>
 
+        <div className={styles.row}>
             <div className={styles.post}>
               <h2>In Looking Out</h2>
               <a href='http://www.inlookingout.co.uk/' target="_blank">
@@ -48,7 +50,9 @@ export default function webdevFeed() {
                 <p>A SuperHi tutorial learning how to use form tags such as inputs, sliders, checkboxes and select boxes to build up interactivity to our projects.</p>
               </div>
             </div>
+        </div>
             
+        <div className={styles.row}>
             <div className={styles.post}>
               <h2>Words of Women</h2>
               <a href='https://cf-words-of-women-draft.superhi.com/' target="_blank">
@@ -58,8 +62,8 @@ export default function webdevFeed() {
                 <p>A SuperHi tutorial learning how to add parallax movement and stamps with vanilla javascript</p>
               </div>
             </div>
-
         </div>
+
       </div>
     </div>
   )

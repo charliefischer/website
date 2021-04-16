@@ -49,3 +49,12 @@ a.about{
     font-size: 18px
   }
 }
+
+@media(min-width: 1900px){
+  a.name {
+    padding-left: 12vw;
+  }
+  a.about {
+    padding-right: 12vw;
+  }
+}

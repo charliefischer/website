@@ -10,7 +10,6 @@ $randomNumber: random(5);
   flex: 1;
   justify-content: center;
   text-align: center;
-  margin-top: 8%;
 }
 
 .post {
@@ -43,4 +42,47 @@ $randomNumber: random(5);
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
+}
+
+@media(min-width: 1700px){
+  .feed {
+    margin-top: 6%;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    height: 480px;
+  }
+
+  .post img {
+    max-width: 20vw;
+  }
+}
+
+@media(min-width: 1800px){
+  .row {
+    height: 500px;
+  }
+}
+
+@media(min-width: 1900px){
+  .feed {
+    margin-top: 5%;
+    padding-right: 12vw;
+  }
+  .row {
+    height: 500px;
+  }
+  .post img{
+    max-width: 18vw;
+  }
+}
+
+@media(min-width: 2200px){
+  .row {
+    height: 550px;
+  }
 }
