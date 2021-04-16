@@ -28,12 +28,12 @@ export default function milesDavis(){
             their teddy bear? Maybe.
           </p>
         </div>
-      <div className={styles.body}>
-      <div className={styles.mainImage}>
-        <img src='/illustration/inLookingOut/in_looking_out_full.jpg' alt="In Looking Out" />
+        <div className={styles.body}>
+          <div className={styles.mainImage}>
+            <img src='/illustration/inLookingOut/in_looking_out_full.jpg' alt="In Looking Out" />
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
     </Layout>
   )
 }

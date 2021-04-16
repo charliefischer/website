@@ -5,33 +5,13 @@ $randomNumber: random(5);
   padding-left: 8vw;
   margin-top: 8%;
 }
+
 .feedIllustration {
   flex: 1;
   margin-top: 8%;
   justify-content: center;
   text-align: center;
 }
-
-.feed h1{
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 900;
-  font-size: 40px;
-}
-
-.feed h2 {
-  text-align: left;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 800;
-  font-size: 24px;
-}
-
-.feed p{
-  text-align: left;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-}
-
 
 .post {
   transition: all 0.3s ease;
