@@ -1,5 +1,6 @@
 $randomNumber: random(5);
 
+
 .feed{
   width: 50vw;
   margin-top: 8%;
@@ -42,6 +43,28 @@ $randomNumber: random(5);
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
+}
+
+@media(max-width: 1699px){
+  .feed {
+    padding-right: 16vw;
+  }
+  .post img {
+    max-width: 34vw;
+    max-height: 25vh;
+  }
+}
+
+@media(max-width: 1600px){
+  .feed {
+    margin-top: 65px;
+  }
+}
+
+@media(max-width: 1250px){
+  .post img{
+    // height: 25vh;
+  }
 }
 
 @media(min-width: 1700px){

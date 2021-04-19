@@ -1,4 +1,4 @@
-$randomNumber: random(5);
+$randomNumber: random(6);
 
 .feed {
   width: 50vw;
@@ -13,6 +13,7 @@ $randomNumber: random(5);
 }
 
 .post {
+  position: relative;
   transition: all 0.3s ease;
 }
 
@@ -23,10 +24,10 @@ $randomNumber: random(5);
 }
 
 .post:hover {
-  transform: rotate($randomNumber - 5 + deg);
+  transform: rotate($randomNumber - 6 + deg);
 }
 
-.post:hover img {
+.post:hover img{
   opacity: 0.1;
 }
 
@@ -42,6 +43,22 @@ $randomNumber: random(5);
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
 }
+
+@media(max-width: 1699px){
+  .feed {
+    padding-left: 16vw;
+  }
+  .post img{
+    max-height: 25vh;
+  }
+}
+
+@media(max-width: 1600px){
+  .feed {
+    margin-top: 65px;
+  }
+}
+
 
 @media(min-width: 1700px){
   .feedIllustration {
