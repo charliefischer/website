@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import styles from './freeWord.module.css'
+import styles from './freeWord.module.scss'
 import Layout from '../../components/layout'
 
 export default class FreeWord extends React.Component {
@@ -26,7 +26,7 @@ export default class FreeWord extends React.Component {
           </div>
           <div className={styles.body}>
             <div className={styles.mainImage}>
-              <img src='/illustration/freeWord/banner.png' alt='FreeWord Banner' />
+              <img src='/illustration/freeWord/banner.jpg' alt='FreeWord Banner' />
             </div>
 
             <div className={styles.container}>
@@ -50,19 +50,19 @@ export default class FreeWord extends React.Component {
 
             <div className={styles.container}>
               <div className={styles.row}>
-                <img src='/illustration/freeWord/audio-b.png' alt='FreeWord Audio Media Banner' />
-                <img src='/illustration/freeWord/podcast-b.png' alt='FreeWord Podcase Media Banner' />
+                <img src='/illustration/freeWord/audio-b.jpg' alt='FreeWord Audio Media Banner' />
+                <img src='/illustration/freeWord/podcast-b.jpg' alt='FreeWord Podcase Media Banner' />
               </div>
               <div className={styles.row}>
-                <img src='/illustration/freeWord/video-b.png' alt='FreeWord Video Media Banner' />
-                <img src='/illustration/freeWord/blog-b.png' alt='FreeWord Blog Media Banner' />
+                <img src='/illustration/freeWord/video-b.jpg' alt='FreeWord Video Media Banner' />
+                <img src='/illustration/freeWord/blog-b.jpg' alt='FreeWord Blog Media Banner' />
               </div>
             </div>
 
             <div className={styles.container}>
               <div className={styles.row}>
-                  <img className={styles.poster} src='/illustration/freeWord/title_card.png' alt='FreeWord Title Card' loading='lazy' />
-                  <img className={styles.poster} src='/illustration/freeWord/poster.png' alt='FreeWord Poster Design' loading='lazy' />
+                  <img className={styles.poster} src='/illustration/freeWord/title_card.jpg' alt='FreeWord Title Card' loading='lazy' />
+                  <img className={styles.poster} src='/illustration/freeWord/poster.jpg' alt='FreeWord Poster Design' loading='lazy' />
               </div>
             </div>
 

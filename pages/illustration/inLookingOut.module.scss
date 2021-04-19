@@ -42,3 +42,32 @@
   width: 37.5vw;
   margin-bottom: 32px;
 }
+
+@media(max-width:1699px){
+  .text{
+    margin-left: 16vw;
+    width: 33vw;
+    padding-right: 1vw;
+  }
+
+  .body{
+    width: 34vw;
+  }
+
+  .mainImage img{
+    width: 34vw;
+    margin-bottom: 12px
+  }
+
+  .poster img {
+    width: 15vw;
+  }
+
+  .container {
+    margin-bottom: 16px
+  }
+  
+  .container img {
+    width: 17vw
+  }
+}

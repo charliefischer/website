@@ -36,7 +36,7 @@ export default function about() {
           </div>
         </div>
         <div className={styles.image}>
-          <img className={styles.brain} src='/about/brain.png' alt='Self Portrait' />
+          <img className={styles.brain} src='/about/brain.jpg' alt='Self Portrait' />
         </div>
       </div>
     </div>

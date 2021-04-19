@@ -40,6 +40,17 @@ a.about{
   transition: color 0.3s ease;
 }
 
+
+@media(max-width: 1699px){
+  a.about {
+    padding-right: 16vw;
+  }
+
+  a.name{
+    padding-left: 16vw;
+  }
+}
+
 @media(max-width: 1600px){
   a.name {
     font-size: 32px;
@@ -67,15 +78,6 @@ a.about{
 }
 
 
-@media(max-width: 1699px){
-  a.about {
-    padding-right: 16vw;
-  }
-
-  a.name{
-    padding-left: 16vw;
-  }
-}
 
 @media(min-width: 1900px){
   a.name {
