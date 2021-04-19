@@ -5,7 +5,6 @@ import Layout from '../../components/layout'
 export default function milesDavis(){
   return(
     <Layout>
-      <div className={styles.frame}>
         <Head>
           <title>Charlie Fischer</title>
           <link rel="icon" href="/favicon.ico" />
@@ -20,12 +19,11 @@ export default function milesDavis(){
             the MLS side Columbus Crew as their owners tried to move the franchise to Austin, Texas.
           </p>
         </div>
-      <div className={styles.body}>
-      <div className={styles.mainImage}>
-        <img src='/illustration/columbusCrew/Columbus_crew.jpg' alt="Columbus Crew NPLH" />
+      <div className={styles.images}>
+        <div className={styles.mainImage}>
+          <img src='/illustration/columbusCrew/Columbus_crew.jpg' alt="Columbus Crew NPLH" />
+        </div>
       </div>
-    </div>
-    </div>
     </Layout>
   )
 }

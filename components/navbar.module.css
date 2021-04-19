@@ -1,46 +1,37 @@
 .nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
   z-index: 2;
+  border-bottom: solid 1px black;
 }
-/* .name,
-.about {
-  writing-mode: vertical-rl;
-  transform: rotate(-180deg);
-} */
 
 a.name{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 54px;
-  font-weight: 900;
-  padding: 32px 0 32px 8vw;
+  font-size: 40px;
+  font-weight: 300;
   text-decoration: none;
   color: #000;
-  transition: color 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .name:hover,
 a.about:hover{
-  color:#555555
+  color:#555555;
+  font-weight: 900;
 }
 
 a.about{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 24px;
   font-weight: 300;
-  padding: 32px 8vw 32px 0;
   text-decoration: none;
   color: #000;
-  transition: color 0.3s ease;
+  transition: all 0.5s ease;
 }
 
-
+/* 
 @media(max-width: 1699px){
   a.about {
     padding-right: 16vw;
@@ -86,4 +77,4 @@ a.about{
   a.about {
     padding-right: 12vw;
   }
-}
+} */

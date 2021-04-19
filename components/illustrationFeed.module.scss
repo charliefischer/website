@@ -1,31 +1,30 @@
 $randomNumber: random(6);
 
-.feed {
-  width: 50vw;
-  padding-left: 8vw;
-  margin-top: 8%;
+.contentWrapperLeft{
+  width: 50%;
+  border-right: solid 1px black;
 }
 
-.feedIllustration {
-  flex: 1;
-  justify-content: center;
-  text-align: center;
+.title {
+  position: sticky;
+  top: 80px;
+  z-index: 4;
 }
 
 .post {
   position: relative;
   transition: all 0.3s ease;
+  padding-right: 12px;
 }
 
 .post img{
-  max-width: 42vw;
-  max-height: 30vh;
+  width: 100%;
   transition: all 0.3s ease;  
 }
 
-.post:hover {
-  transform: rotate($randomNumber - 6 + deg);
-}
+// .post:hover {
+//   transform: rotate($randomNumber - 6 + deg);
+// }
 
 .post:hover img{
   opacity: 0.1;
@@ -44,66 +43,66 @@ $randomNumber: random(6);
   transition: all 0.3s ease;
 }
 
-@media(max-width: 1699px){
-  .feed {
-    padding-left: 16vw;
-  }
-  .post img{
-    max-height: 25vh;
-  }
-}
+// @media(max-width: 1699px){
+//   .feed {
+//     padding-left: 16vw;
+//   }
+//   .post img{
+//     max-height: 25vh;
+//   }
+// }
 
-@media(max-width: 1600px){
-  .feed {
-    margin-top: 65px;
-  }
-}
-
-
-@media(min-width: 1700px){
-  .feedIllustration {
-    padding-right: 2vw;
-  }
-  .feed {
-    margin-top: 6%;
-  }
-  .row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    height: 490px;
-  }
-
-  .post img {
-    max-width: 18vw;
-  }
-}
+// @media(max-width: 1600px){
+//   .feed {
+//     margin-top: 65px;
+//   }
+// }
 
 
-@media(min-width: 1800px){
-  .row {
-    height: 500px;
-  }
-}
+// @media(min-width: 1700px){
+//   .feedIllustration {
+//     padding-right: 2vw;
+//   }
+//   .feed {
+//     margin-top: 6%;
+//   }
+//   .row{
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     width: 100%;
+//     justify-content: space-between;
+//     height: 490px;
+//   }
 
-@media(min-width: 1900px){
-  .feed {
-    margin-top: 5%;
-    padding-left: 12vw;
-  }
-  .row {
-    height: 500px;
-  }
-}
+//   .post img {
+//     max-width: 18vw;
+//   }
+// }
 
-@media(min-width: 2200px){
-  .feed {
-    margin-top: 5%;
-  }
-  .row {
-    height: 550px;
-  }
-}
+
+// @media(min-width: 1800px){
+//   .row {
+//     height: 500px;
+//   }
+// }
+
+// @media(min-width: 1900px){
+//   .feed {
+//     margin-top: 5%;
+//     padding-left: 12vw;
+//   }
+//   .row {
+//     height: 500px;
+//   }
+// }
+
+// @media(min-width: 2200px){
+//   .feed {
+//     margin-top: 5%;
+//   }
+//   .row {
+//     height: 550px;
+//   }
+// }
 

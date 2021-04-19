@@ -1,32 +1,29 @@
 $randomNumber: random(5);
 
-
-.feed{
-  width: 50vw;
-  margin-top: 8%;
-  padding-right: 8vw;
+.contentWrapperRight {
+  width: 50%;
 }
 
-.webfeed {
-  flex: 1;
-  justify-content: center;
-  text-align: center;
+.title {
+  position: sticky;
+  top: 80px;
+  z-index: 4;
+  padding-left: 12px;
 }
+
 
 .post {
   position: relative;
+  padding-left: 12px;
   transition: all 0.3s ease;
 }
 
 .post img {
-  max-width: 42vw;
+  width: 100%;
   opacity: 1;
   transition: all 0.3s ease;
 }
 
-.post:hover {
-  transform: rotate($randomNumber - 5 + deg);
-}
 
 .post:hover img {
   opacity: 0.1;
@@ -45,67 +42,67 @@ $randomNumber: random(5);
   transition: all 0.3s ease;
 }
 
-@media(max-width: 1699px){
-  .feed {
-    padding-right: 16vw;
-  }
-  .post img {
-    max-width: 34vw;
-    max-height: 25vh;
-  }
-}
+// @media(max-width: 1699px){
+//   .feed {
+//     padding-right: 16vw;
+//   }
+//   .post img {
+//     max-width: 34vw;
+//     max-height: 25vh;
+//   }
+// }
 
-@media(max-width: 1600px){
-  .feed {
-    margin-top: 65px;
-  }
-}
+// @media(max-width: 1600px){
+//   .feed {
+//     margin-top: 65px;
+//   }
+// }
 
-@media(max-width: 1250px){
-  .post img{
-    // height: 25vh;
-  }
-}
+// @media(max-width: 1250px){
+//   .post img{
+//     // height: 25vh;
+//   }
+// }
 
-@media(min-width: 1700px){
-  .feed {
-    margin-top: 6%;
-  }
-  .row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    height: 480px;
-  }
+// @media(min-width: 1700px){
+//   .feed {
+//     margin-top: 6%;
+//   }
+//   .row{
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     width: 100%;
+//     justify-content: space-between;
+//     height: 480px;
+//   }
 
-  .post img {
-    max-width: 20vw;
-  }
-}
+//   .post img {
+//     max-width: 20vw;
+//   }
+// }
 
-@media(min-width: 1800px){
-  .row {
-    height: 500px;
-  }
-}
+// @media(min-width: 1800px){
+//   .row {
+//     height: 500px;
+//   }
+// }
 
-@media(min-width: 1900px){
-  .feed {
-    margin-top: 5%;
-    padding-right: 12vw;
-  }
-  .row {
-    height: 500px;
-  }
-  .post img{
-    max-width: 18vw;
-  }
-}
+// @media(min-width: 1900px){
+//   .feed {
+//     margin-top: 5%;
+//     padding-right: 12vw;
+//   }
+//   .row {
+//     height: 500px;
+//   }
+//   .post img{
+//     max-width: 18vw;
+//   }
+// }
 
-@media(min-width: 2200px){
-  .row {
-    height: 550px;
-  }
-}
+// @media(min-width: 2200px){
+//   .row {
+//     height: 550px;
+//   }
+// }
