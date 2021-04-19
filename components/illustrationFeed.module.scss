@@ -3,11 +3,12 @@ $randomNumber: random(6);
 .contentWrapperLeft{
   width: 50%;
   border-right: solid 1px black;
+  margin-top: 20px;
 }
 
 .title {
   position: sticky;
-  top: 80px;
+  top: 70px;
   z-index: 4;
 }
 

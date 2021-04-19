@@ -2,11 +2,12 @@ $randomNumber: random(5);
 
 .contentWrapperRight {
   width: 50%;
+  margin-top: 20px;
 }
 
 .title {
   position: sticky;
-  top: 80px;
+  top: 70px;
   z-index: 4;
   padding-left: 12px;
 }
