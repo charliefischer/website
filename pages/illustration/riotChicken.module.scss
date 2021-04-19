@@ -1,0 +1,46 @@
+.text {
+  width: 50%;
+  padding-right: 12px;
+  height: 100vh;
+  padding-top: 38px;
+}
+
+.images {
+  padding-top: 70px - 38px;
+  width: 50%;
+  border-left: solid 1px black;
+}
+
+.mainImage img{
+  width: 100%;
+}
+
+
+/* @media(max-width:1699px){
+  .text{
+    margin-left: 16vw;
+    width: 33vw;
+    padding-right: 1vw;
+  }
+
+  .body{
+    width: 34vw;
+  }
+
+  .mainImage img{
+    width: 34vw;
+    margin-bottom: 12px
+  }
+
+  .poster img {
+    width: 15vw;
+  }
+
+  .container {
+    margin-bottom: 16px
+  }
+  
+  .container img {
+    width: 17vw
+  }
+} */

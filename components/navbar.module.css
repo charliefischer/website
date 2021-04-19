@@ -1,11 +1,8 @@
 .nav {
-  /* display: flex; */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  
-  /* justify-content: space-between; */
   z-index: 2;
   background-color: white;
   border-bottom: solid 1px black;
@@ -26,6 +23,7 @@ a.name{
   text-decoration: none;
   color: #000;
   transition: all 0.5s ease;
+  padding: 6px 0;
 }
 
 .name:hover,
@@ -43,17 +41,17 @@ a.about{
   transition: all 0.5s ease;
 }
 
-/* 
+
 @media(max-width: 1699px){
   a.about {
-    padding-right: 16vw;
+    font-size: 18px;
   }
 
   a.name{
-    padding-left: 16vw;
+    font-size: 24px;
   }
 }
-
+/*
 @media(max-width: 1600px){
   a.name {
     font-size: 32px;

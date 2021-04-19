@@ -7,7 +7,6 @@ export default class FreeWord extends React.Component {
   render(){
     return (
       <Layout>
-      <div className={styles.frame}>
           <Head>
             <title>Charlie Fischer</title>
             <link rel="icon" href="/favicon.ico" />
@@ -24,7 +23,7 @@ export default class FreeWord extends React.Component {
               which were used for posters, social media icons, website banners, all the way up to 4m tall window displays. 
             </p>
           </div>
-          <div className={styles.body}>
+          <div className={styles.images}>
             <div className={styles.mainImage}>
               <img src='/illustration/freeWord/banner.jpg' alt='FreeWord Banner' />
             </div>
@@ -70,7 +69,6 @@ export default class FreeWord extends React.Component {
               <img src='/illustration/freeWord/hospitality.gif' alt='FreeWord Hospitality Gif' loading='lazy' />
             </div>
           </div>
-      </div>
       </Layout>
     )
   }

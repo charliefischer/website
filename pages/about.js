@@ -1,17 +1,17 @@
-import styles from './about.module.css'
+import styles from './about.module.scss'
 import Link from 'next/link'
 import Navbar from '../components/navbar'
 import Head from 'next/head'
+import Layout from '../components/layout'
 
 export default function about() {
   return(
-    <div>
+    <Layout>
       <Head>
         <title>Charlie Fischer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <div className={styles.body}>
+      <div className={styles.text}>
         <div className={styles.title}>
           About Me
         </div>
@@ -35,11 +35,11 @@ export default function about() {
             </div>
           </div>
         </div>
+        </div>
         <div className={styles.image}>
           <img className={styles.brain} src='/about/brain.jpg' alt='Self Portrait' />
         </div>
-      </div>
-    </div>
+    </Layout>
     
   )
 }
