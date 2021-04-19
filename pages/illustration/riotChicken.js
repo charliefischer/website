@@ -26,7 +26,7 @@ export default class RiotChicken extends React.Component {
           </div>
           <div className={styles.body}>
             <div className={styles.mainImage}>
-              <img src='/illustration/riotChicken/menu_website.png' alt='Riot Chicken Menu Design' />
+              <img src='/illustration/riotChicken/menu_website.jpg' alt='Riot Chicken Menu Design' />
             </div>
           </div>
         </div>

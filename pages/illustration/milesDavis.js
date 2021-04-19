@@ -23,7 +23,7 @@ export default function milesDavis(){
         </div>
       <div className={styles.body}>
       <div className={styles.mainImage}>
-        <img src='/illustration/milesDavis/png.png' alt="Miles Runs the Voodoo Down" />
+        <img src='/illustration/milesDavis/png.jpg' alt="Miles Runs the Voodoo Down" />
       </div>
     </div>
     </div>
