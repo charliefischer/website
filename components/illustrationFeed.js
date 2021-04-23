@@ -80,6 +80,8 @@ render(){
             <p>Illustration for In Looking Out about lockdown</p>
           </div>
         </div>
+
+        <div className={styles.space} />
       </div>
     )
   }

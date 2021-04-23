@@ -3,12 +3,18 @@ $randomNumber: random(5);
 .contentWrapperRight {
   width: 50%;
   margin-top: 20px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.contentWrapperRight::-webkit-scrollbar {
+  display: none;
 }
 
 .title {
-  position: sticky;
-  top: 70px;
-  z-index: 4;
+  // position: sticky;
+  // top: 70px;
+  // z-index: 4;
   padding-left: 12px;
 }
 
@@ -41,6 +47,10 @@ $randomNumber: random(5);
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
+}
+
+.space {
+  height: 32px;
 }
 
 // @media(max-width: 1699px){

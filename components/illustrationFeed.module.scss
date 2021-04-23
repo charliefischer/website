@@ -4,12 +4,18 @@ $randomNumber: random(6);
   width: 50%;
   border-right: solid 1px black;
   margin-top: 20px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.contentWrapperLeft::-webkit-scrollbar {
+  display: none;
 }
 
 .title {
-  position: sticky;
-  top: 70px;
-  z-index: 4;
+  // position: sticky;
+  // top: 70px;
+  // z-index: 4;
 }
 
 .post {
@@ -22,10 +28,6 @@ $randomNumber: random(6);
   width: 100%;
   transition: all 0.3s ease;  
 }
-
-// .post:hover {
-//   transform: rotate($randomNumber - 6 + deg);
-// }
 
 .post:hover img{
   opacity: 0.1;
@@ -42,6 +44,10 @@ $randomNumber: random(6);
   left: 50%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
+}
+
+.space {
+  height: 32px;
 }
 
 // @media(max-width: 1699px){
