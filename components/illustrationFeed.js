@@ -81,6 +81,18 @@ render(){
           </div>
         </div>
 
+        <div className={styles.post}>
+          <h2>Kitchen Island Commentators</h2>
+          <Link href='illustration/kitchenIslandCommentators'>
+              <a>
+                <img src='/illustration/kitchen_island.jpg' alt='Kitchen Island Commentators' loading='lazy' />
+            </a>
+          </Link>
+          <div className={styles.hoverText}>
+            <p>Podcast Cover</p>
+          </div>
+        </div>
+        
         <div className={styles.space} />
       </div>
     )
